@@ -1,0 +1,3 @@
+grep 'KANAPAT' email.txt | awk '{print $1}' >> result.txt
+grep '6452300555@stu.pim.ac.th' email.txt | awk '{print $2}' >> result.txt
+grep -oP '\b6452300555\b' email.txt >> result.txt
